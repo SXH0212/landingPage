@@ -21,13 +21,13 @@
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-white">
     <div class="container">
-      <a class="navbar-brand fw-bold" href="#"><i class="bi bi-record-fill text-info"></i>小懶蟲</a>
+      <a class="navbar-brand fw-bold" href="index.html"><i class="bi bi-record-fill text-info"></i>小懶蟲</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-start">
           <li class="nav-item">
             <a class="nav-link mx-3 active" aria-current="page" href="index.html">首頁</a>
           </li>
@@ -41,14 +41,14 @@
             <a class="nav-link mx-3" href="qanda.html">常見問題</a>
           </li>
           <li class="nav-item">
-            <a class="btn btn-info" href="#">方案費用</a>
+            <a class="btn btn-info ms-1" href="#">方案費用</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <header class="header px-4 py-5 d-flex align-items-lg-center justify-content-lg-center"
+  <header class="header px-4 py-5 d-flex align-items-lg-center justify-content-center background-repeat: no-repeat"
     style="background-image: url(./images/home_bg.jpg);">
     <div class=" text-center text-white ">
       <p class="fs-5">你是不是也有夢想</p>
@@ -70,7 +70,7 @@
           （只要您有錢即可</p>
       </div>
       <div class="col-lg-6">
-        <img src="./images/info.jpg" alt="" class="w-100 img-fluid">
+        <img src="./images/info.jpg" alt="infojpg" class="w-100 img-fluid">
       </div>
     </div>
   </section>
@@ -80,8 +80,8 @@
       <h2 class="fw-bold text-center mb-4">
         你有這些煩惱嗎？
       </h2>
-      <div class="row row-cols-1 row-cols-lg-4 g-3 g-lg-4">
-        <div class="col">
+      <ul class="row row-cols-1 row-cols-lg-4 g-3 g-lg-4">
+        <li class="col">
           <div class="card border-0 shadow text-center py-4">
             <div class="card-body">
               <i class="bi bi-trash3-fill fs-s-48 text-info"></i>
@@ -89,8 +89,8 @@
               <p class="text-secondary lh-lg card-text">每天追垃圾很煩嗎？倒個垃圾<br>還要走出門好累對吧？</p>
             </div>
           </div>
-        </div>
-        <div class="col">
+        </li>
+        <li class="col">
           <div class="card border-0 shadow text-center py-4">
             <div class="card-body">
               <i class="bi bi-tree-fill fs-s-48 text-info"></i>
@@ -98,8 +98,8 @@
               <p class="text-secondary lh-lg card-text">覺得很可愛所以買一堆，結果<br>根本不會照顧，快死光了？</p>
             </div>
           </div>
-        </div>
-        <div class="col">
+        </li>
+        <li class="col">
           <div class="card border-0 shadow text-center py-4">
             <div class="card-body">
               <i class="bi bi-book-half fs-s-48 text-info"></i>
@@ -107,8 +107,8 @@
               <p class="text-secondary lh-lg card-text">什麼微積分、程式設計、或是<br>設計稿，不會做也不想做？</p>
             </div>
           </div>
-        </div>
-        <div class="col">
+        </li>
+        <li class="col">
           <div class="card border-0 shadow text-center py-4">
             <div class="card-body">
               <i class="bi bi-emoji-frown fs-s-48 text-info"></i>
@@ -116,19 +116,19 @@
               <p class="text-secondary lh-lg card-text">每天都把時間花在不想做的事<br>情就飽了，怎麼快樂？</p>
             </div>
           </div>
-        </div>
-      </div>
+        </li>
+      </ul>
     </div>
   </section>
 
   <section class="py-5 container">
     <h2 class="text-center mb-4 fw-bold">方案費用</h2>
-    <div class="row row-cols-1 row-cols-lg-3 g-3 g-lg-4">
-      <div class="col">
+    <ul class="row row-cols-1 row-cols-lg-3 g-3 g-lg-4">
+      <li class="col">
         <div class="card border-0 shadow h-100">
           <div class="card-header text-center border-0 text-black-50 fs-4 fw-bold">小小搭懶蟲</div>
           <div class="card-body text-center flex-grow-0">
-            <img src="./images/plan01.jpg" class="img-fluid" alt="">
+            <img src="./images/plan01.jpg" class="img-fluid" alt="plan01jpg">
             <p class="text-info">NT <strong class="fs-1">298</strong>/月</p>
           </div>
           <ul class="list-group list-group-flush border-top border-bottom">
@@ -140,12 +140,12 @@
             <a href="#" class="btn btn-info w-100 align-self-end fw-bold">立即預約</a>
           </div>
         </div>
-      </div>
-      <div class="col">
+      </li>
+      <li class="col">
         <div class="card border-0 shadow h-100">
           <div class="card-header text-center text-white bg-info border-0 fs-4 fw-bold">睡一整天囉</div>
           <div class="card-body text-center">
-            <img src="./images/plan02.jpg" class="img-fluid" alt="">
+            <img src="./images/plan02.jpg" class="img-fluid" alt="plan02jpg">
             <p class="text-info">NT <strong class="fs-1">666</strong>/月</p>
           </div>
           <ul class="list-group list-group-flush border-top border-bottom">
@@ -158,12 +158,12 @@
             <a href="#" class="btn btn-info w-100 fw-bold align-self-end">立即預約</a>
           </div>
         </div>
-      </div>
-      <div class="col">
+      </li>
+      <li class="col">
         <div class="card border-0 shadow h-100">
           <div class="card-header text-center border-0 text-black-50 fs-4 fw-bold">自由自在的人生</div>
           <div class="card-body text-center flex-grow-0">
-            <img src="./images/plan03.jpg" class="img-fluid" alt="">
+            <img src="./images/plan03.jpg" class="img-fluid" alt="plan03jpg">
             <p class="text-info my-4 fs-5">客製化詢價</p>
           </div>
           <ul class="list-group list-group-flush border-top border-bottom">
@@ -176,37 +176,43 @@
             <a href="#" class="btn btn-info w-100 align-self-end fw-bold">線上諮詢</a>
           </div>
         </div>
-      </div>
-    </div>
+      </li>
+    </ul>
   </section>
 
   <footer>
     <div class="bg-light">
       <section class="container p-5">
         <h2 class="fw-bold text-center my-4">需要其他協助嗎？</h2>
-        <div class="row row-cols-1 row-cols-lg-3 g-3 g-lg-4 justify-content-center">
-          <div class="col col-lg-3">
-            <div class="card border-0 shadow">
-              <div class="card-body text-center">
-                <h5 class="card-title mb-0 fw-bold"><i class="bi bi-telephone-fill text-info"></i> 07-555-666</h5>
+        <ul class="row row-cols-1 row-cols-lg-3 g-3 g-lg-4 justify-content-center">
+          <li class="col col-lg-3">
+            <a href="tel:+07-555-666" class="text-decoration-none">
+              <div class="card border-0 shadow">
+                <div class="card-body text-center">
+                  <h5 class="card-title mb-0 fw-bold"><i class="bi bi-telephone-fill text-info"></i> 07-555-666</h5>
+                </div>
               </div>
-            </div>
-          </div>
-          <div class="col col-lg-3">
-            <div class="card border-0 shadow">
-              <div class="card-body text-center">
-                <h5 class="card-title mb-0 fw-bold"><i class="bi bi-facebook text-info"></i> 我就是個小懶蟲</h5>
+            </a>
+          </li>
+          <li class="col col-lg-3">
+            <a href="index.html" class="text-decoration-none">
+              <div class="card border-0 shadow">
+                <div class="card-body text-center">
+                  <h5 class="card-title mb-0 fw-bold"><i class="bi bi-facebook text-info"></i> 我就是個小懶蟲</h5>
+                </div>
               </div>
-            </div>
-          </div>
-          <div class="col col-lg-3">
-            <div class="card border-0 shadow">
-              <div class="card-body text-center">
-                <h5 class="card-title mb-0 fw-bold"><i class="bi bi-question-lg text-info"></i> 常見問題</h5>
+            </a>
+          </li>
+          <li class="col col-lg-3">
+            <a href="qanda.html" class="text-decoration-none">
+              <div class="card border-0 shadow">
+                <div class="card-body text-center">
+                  <h5 class="card-title mb-0 fw-bold"><i class="bi bi-question-lg text-info"></i> 常見問題</h5>
+                </div>
               </div>
-            </div>
-          </div>
-        </div>
+            </a>
+          </li>
+        </ul>
       </section>
     </div>
     <div class="bg-secondary py-4">
